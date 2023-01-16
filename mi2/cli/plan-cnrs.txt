@@ -1,0 +1,60 @@
+Programme Cours spécifique Linux Mise en œuvre           :
+1/ Tour d’horizon & démarrage commenté
+·        Du noyau aux distributions
+·        Quelle distribution pour quel usage ?
+·        Démarrage : GRUB2, noyau, systemd, X11
+·        Sources d’information 
+2/ Commandes et fichiers
+·        Bash et ses alternatives
+·        Syntaxe de base d’une commande
+·        Commandes de base : ls, cd, pwd, file, cat, mkdir, rm, find, grep, du…
+·        Les « jokers » : *, [a-z]…
+·        Introduction aux expressions régulières
+·        Permissions : chmod, chown, umask…
+·        Répertoires standard : /etc, /usr, /var…
+·        Points de montage : mount, df, /etc/fstab
+·        Liens « durs » et symboliques
+·        Gestion des périphériques amovibles 
+3/ Environnement graphique
+•       X11 et Wayland
+•       Environnements : GNOME, KDE, Xfce… 
+•       Explorateurs de fichiers et éditeurs de texte
+•       Navigateurs web et clients mail
+•       Multimédia et bureautique  
+4/ Utilisation de bash
+·        Variables et syntaxe ${}, chaînes ' vs "
+·        Canaliser une sortie avec $(), > et |
+·        Chaînage de commandes avec ;, && et ||
+·        Environnement, « source » et sous-shells
+·        Types de commandes : Binaires et PATH, commandes internes, fonctions et alias…
+·        Variables prédéfinies importantes
+·        Utilisation de .bashrc et .profile
+·        Historique et autocomplétion
+·        Editeurs de texte console (nano, vim, …)
+·        Scripts et shebangs
+5/ Gestion des tâches de fond
+·        Arrière-plan avec bash : &, fg/bg/jobs
+·        Gestion des services avec systemd
+·        Visualisation du travail d’arrière-plan : ps, top et ses cousins…
+·        Suivi de l’utilisation des ressources
+·        Tuer un processus avec kill et killall 
+6/ Guide de survie en réseau
+·        Bref aperçu de TCP/IP, DNS, DHCP
+·        Visualiser la configuration réseau avec iproute2 et NetworkManager
+·        Diagnostics simples avec ip, host et ping
+·        Configurer des réseaux filaires et sans fil
+·        Accès distant : ssh, scp… 
+7/ Bases d’administration
+·        Paramétrages console et graphiques
+·        Installation et mise à jour des logiciels avec un gestionnaire de paquets
+·        Et si un logiciel n’est pas dans le dépôt ?    
+·        Outils de sauvegardes de données
+·        Création de comptes utilisateurs 
+·        Problèmes classiques et solutions
+·        Arrêt en mode console : reboot, poweroff  
+8/ Règles de sécurité Linux
+·        Chiffrement des disques
+·        Mises à jour, 
+·        Verrouillage écran/déconnexion, 
+·        Gestion des utilisateurs et des mots de passes (keepass)
+·        Recommandations ANSSI
